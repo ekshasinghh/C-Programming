@@ -1,0 +1,22 @@
+#include<stdio.h>
+main(){
+    char* name[]={"amar","amarsingh","atulpratapsingh"};
+    printf("%s\n",*(name+1));
+    printf("%s\n",*(name+2));
+    printf("%s\n",*(name));
+    printf("%s\n",((name+2)+7));
+    printf("%s\n",*name+1);
+    printf("%s\n",*name+3);
+    printf("%s\n",*(name+2)+3);
+    printf("%s\n",*(name+1)+4);
+}
+/*Output:
+amarsingh
+atulpratapsingh
+amar
+t
+mar
+r
+lpratapsingh
+singh
+*/
